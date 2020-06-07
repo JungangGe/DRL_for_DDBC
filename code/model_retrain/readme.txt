@@ -1,1 +1,1 @@
-
+the codes in this folder are for Fig.13 of the manuscript. Run the simulation program in the folder 'generate' to generate the weights of the neural network before rescheduling and then copy the generated weights to the folder 'retrain/DRL_for_DDBC/models', finally run the simulation program in the folder 'retrain' to retrain the model for the new environment.
