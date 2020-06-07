@@ -43,4 +43,4 @@ The simulation programs require Python3 with installed packages such as Keras, T
 
 In each file above, there are detailed annotations to help you understand the simulation program.
 #### Steps to plot the results
-After running the simulation programs, the simulation results will be saved as json files such as `XXXX.json` in the corresponding folder `data`. Then you can rename and copy the results, i.e., the json files, to the corresponding folder in `./data_and_plots`. Run the script `josn2mat.py` to transform the json files to `.mat` files. Finally run the MATLAB script file in the same folder to plot the figure.
+After running the simulation programs, the simulation results will be saved as json files such as `XXXX.json` in the corresponding folder `data`. Then you can rename and copy the results, i.e., the json files, to the corresponding folder in `./data_and_plots`. Run the script `json2mat.py` to transform the json files to `.mat` files. Finally run the MATLAB script file in the same folder to plot the figure.
