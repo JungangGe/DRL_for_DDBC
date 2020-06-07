@@ -1,4 +1,4 @@
-### Simulation codes and data for the manuscript "Deep Reinforcement Learning for Distributed Dynamic MISO Downlink-Beamforming Coordination" submitted to IEEE Transactions on Communications
+### Simulation codes and results for the manuscript "Deep Reinforcement Learning for Distributed Dynamic MISO Downlink-Beamforming Coordination" submitted to IEEE Transactions on Communications
 ---
 #### What in the three folders
 
