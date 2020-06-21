@@ -1,8 +1,8 @@
-### Simulation codes and results for the manuscript "Deep Reinforcement Learning for Distributed Dynamic MISO Downlink-Beamforming Coordination" submitted to IEEE Transactions on Communications
+### Simulation codes and results for the manuscript "Deep Reinforcement Learning for Distributed Dynamic MISO Downlink-Beamforming Coordination", which has been accepted for publication in IEEE Transactions on Communications.
 ---
 #### What in the three folders
 
-The simulation codes are in the folder `./code`, the data and figures of simulation results is in folder `./data_and_plots`, and a demo simulation program with detailed annotations in the folder `./DRL_for_DDBC`. All the simulation programs in `./code` are based on the demo simualation program with some altered simulation parameters.
+The simulation codes are in the folder `./code`, the data and figures of simulation results is in folder `./data_and_plots`, and a demo simulation program with detailed annotations in the folder `./DRL_for_DDBC`. All the simulation programs in `./code` are based on the demo simulation program with some altered simulation parameters.
 #### Requirements to run the simulation programs and plot the figures
 The simulation programs require Python3 with installed packages such as Keras, Tesorflow, Numpy, Scipy and etc. The figures are plot by MATLAB. 
 
@@ -42,5 +42,5 @@ The simulation programs require Python3 with installed packages such as Keras, T
 `./DRL_for_DDBC/user_equipment.py` the simulator of the user equipments
 
 In each file above, there are detailed annotations to help you understand the simulation program.
-#### Steps to plot the results
+#### How to use
 After running the simulation programs, the simulation results will be saved as json files such as `XXXX.json` in the corresponding folder `data`. Then you can rename and copy the results, i.e., the json files, to the corresponding folder in `./data_and_plots`. Run the script `json2mat.py` to transform the json files to `.mat` files. Finally run the MATLAB script file in the same folder to plot the figure.
